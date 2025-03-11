@@ -109,14 +109,6 @@ SATIVA Hotel & Resort/
    # Simplemente abre index.html en tu navegador preferido
    ```
 
-## 📞 Soporte
-
-¿Necesitas ayuda? Contáctanos a través de:
-
-- 📧 Email: [contact@sativahotel.com](mailto:contact@sativahotel.com)
-- 💬 [Formulario de Contacto](https://sativahotel.com/contact)
-- 📱 WhatsApp: +1 (555) 123-4567
-
 ## 📜 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
