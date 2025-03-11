@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<!-- HEADER -->
+	<head>
+        
+        <!-- Metadatos Estándar -->
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Propiedades del Sitio -->
+        <title>Hotel Sativa &amp; Resort</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+        <!-- Fuentes de Google -->
+       	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+       	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/tiny-date-picker.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media-query.css" />
+
+    </head>
+
+    <body class="impx-body" id="top">
+
+    	<!-- HEADER -->
+		<header id="impx-header">
+			<div>
+				<div class="impx-menu-wrapper style2" data-uk-sticky="top: .impx-slide-container; animation: uk-animation-slide-top">
+
+					<!-- Navegación Móvil -->
+					<div id="mobile-nav" data-uk-offcanvas="mode: push; overlay: true">
+				        <div class="uk-offcanvas-bar">
+				            <ul class="uk-nav uk-nav-default">
+				                <li><a href="index.html">Inicio</a></li>
+				                <li><a href="rooms.html">Habitaciones</a></li>
+				                <li><a href="restaurant.html">Restaurante</a></li>
+				                <li><a href="spa.html">Spa</a></li>
+				                <li><a href="activities.html">Actividades</a></li>
+				                <li class="uk-parent">
+				                	<a href="#">Páginas</a>
+				                	<ul class="uk-nav-sub">
+					                	<li><a href="about.html">Nosotros</a></li>
+										<li><a href="testimonial.html">Testimonios</a></li>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="single-post.html">Noticias</a></li>
+										<li><a href="gallery.html">Galeria</a></li>
+									</ul>
+				                </li>
+				                <li><a href="contact.html">Contacto</a></li>
+				            </ul>
+
+				        </div>
+				    </div>
+				    <a href="#mobile-nav" class="uk-hidden@xl uk-hidden@l uk-hidden@m mobile-nav" data-uk-toggle="target: #mobile-nav"><i class="fa fa-bars"></i>Menú</a>
+		            <!-- Fin de la navegación móvil -->
+
+		            <!-- Encabezado superior -->
+					<div class="impx-top-header style2">
+						<div class="uk-container uk-container-expand">
+							
+							<div class="uk-grid">
+								<!-- Teléfono del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-phone">
+										<p><i class="fa fa-phone"></i> Teléfono : +51 987654321</p>  
+									</div>
+								</div><!-- Teléfono del encabezado End-->
+								<!-- Redes sociales del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook-f"></i>Facebook</a></li>
+											<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+											<li><a href="#"><i class="fa fa-whatsapp"></i>Whatsapp</a></li>
+										</ul>
+									</div>
+								</div><!-- Redes sociales del encabezado End -->
+							</div>
+
+						</div>
+					</div>
+					<!-- Encabezado superior End -->
+
+
+					<div class="uk-container uk-container-expand">
+						<div data-uk-grid>
+
+							<!-- Logo del encabezado -->
+							<div class="uk-width-auto">
+								<div class="impx-logo">
+									<a href="index.html"><img src="images/logo.png" class="" alt="Logo"></a>
+								</div>
+							</div>
+							<!-- Logo del encabezado End-->
+
+							<!-- Navegación del encabezado -->
+							<div class="uk-width-expand uk-position-relative">								
+								<nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
+									<div class="uk-navbar-right impx-navbar-right">
+	        							<ul class="uk-navbar-nav impx-nav style2">
+											<!-- Elementos de navegación -->
+									    	<li class="uk-parent uk-active">
+								    			<a href="index.html" class="uk-navbar-nav-subtitle"><div>Inicio<div class="uk-navbar-subtitle">Bienvenido</div></div></a>
+									    	</li>
+									    	<li>
+									        	<a href="rooms.html" class="uk-navbar-nav-subtitle"><div>Habitaciones<div class="uk-navbar-subtitle">Nuestras Mejores Suites</div></div></a>
+									        </li>
+									        <li><a href="restaurant.html"><div>Restaurante<div class="uk-navbar-subtitle">Restaurante en el hotel</div></div></a></li>
+											<li><a href="spa.html"><div>Spa<div class="uk-navbar-subtitle">Nuestro Spa</div></div></a></li>
+											<li><a href="activities.html" class="uk-navbar-nav-subtitle"><div>Actividades<div class="uk-navbar-subtitle">Nuestras Instalaciones</div></div></a></li>
+											<li class="uk-parent">
+								    			<a href="#" class="uk-navbar-nav-subtitle"><div>Páginas<div class="uk-navbar-subtitle">Otras Páginas</div></div></a>
+									    		<div class="uk-navbar-dropdown">
+	                								<ul class="uk-nav uk-navbar-dropdown-nav">
+														<li><a href="about.html">Nosotros</a></li>
+														<li><a href="testimonial.html">Testimonios</a></li>
+														<li><a href="blog.html">Blog</a></li>
+														<li><a href="single-post.html">Noticias</a></li>
+														<li><a href="gallery.html">Galeria</a></li>
+													</ul>
+												</div>
+									    	</li>
+									        <li><a href="contact.html" class="uk-navbar-nav-subtitle"><div>Contacto<div class="uk-navbar-subtitle">Contáctanos</div></div></a></li>
+									    </ul>
+									    <!-- Fin de los elementos de navegación -->
+									</div>
+								</nav>
+							</div>
+							<!-- Fin de la navegación del encabezado -->
+
+							<!-- Ribbon de promoción -->
+							<div class="uk-width-auto uk-position-relative">
+								<div class="ribbon">
+								  <i><span><s></s>30% <span>¡OFF!</span><s></s></span></i>
+								</div>
+							</div>
+							<!-- Fin del Ribbon de promoción -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+		<!-- Fin del encabezado -->
+
+		<!-- SLIDESHOW -->
+		<div class="uk-container-expand">
+			<div class="impx-slide-container style1">
+				<div class="impx-slideshow-fw">
+
+					<div data-uk-slideshow="autoplay: true; autoplay-interval: 6000; animation: fade; finite: false; min-height: 319; max-height: 980;">
+						<div class="uk-position-relative uk-visible-toggle uk-light">
+
+						    <ul class="uk-slideshow-items">
+						    	<li><!-- Elemento de la diapositiva #1 -->
+						    		<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-center">
+								    	<img src="images/slideshow/full-slide-1.jpg" alt="Vista del Hotel" data-uk-cover="height:319px">
+								    	<div class="uk-overlay-primary uk-position-cover impx-overlay dark"></div>
+									</div>
+									<div class="uk-container uk-position-relative uk-height-1-1">
+										<div class="uk-position-left uk-flex uk-flex-middle">
+											<div class="impx-slide-fw-caption">
+												<div class="impx-slide-fw-caption-outline uk-transition-slide-left"></div>
+									    		<h1 class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-left">Hotel Sativa &amp; Resort</h1>
+									    		<p class="impx-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">Plantel de Hoteles</p>
+								    		</div>
+								    	</div>
+							    	</div>
+						    	</li><!-- Elemento de la diapositiva #1 End -->
+						    	<li><!-- Elemento de la diapositiva #2 -->
+						    		<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-right">
+								    	<img src="images/slideshow/full-slide-2.jpg" alt="Vista Panorámica" data-uk-cover>
+								    	<div class="uk-overlay-primary uk-position-cover impx-overlay dark"></div>
+								    </div>
+								    <div class="uk-container uk-position-relative uk-height-1-1">
+										<div class="uk-position-right uk-flex uk-flex-middle">
+											<div class="impx-slide-fw-caption right">
+												<div class="impx-slide-fw-caption-outline right bottom uk-transition-slide-left"></div>
+									    		<h1 class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right">Panorama Hermoso</h1>
+									    		<p class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">Disfruta de la mejor vista</p>
+								    		</div>
+								    	</div>
+							    	</div>
+						    	</li><!-- Elemento de la diapositiva #2 End -->
+						    	<li><!-- Elemento de la diapositiva #3 -->
+						    		<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+								    	<img src="images/slideshow/full-slide-3.jpg" alt="Vista del Jardín" data-uk-cover>
+								    	<div class="uk-overlay-primary uk-position-cover impx-overlay dark"></div>
+								    </div>
+								    <div class="uk-container uk-position-relative uk-height-1-1">
+										<div class="uk-position-left uk-flex uk-flex-middle">
+											<div class="impx-slide-fw-caption text-right">
+												<div class="impx-slide-fw-caption-outline uk-transition-slide-top"></div>
+									    		<h1 class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-scale-down">Lujoso y Conviniente</h1>
+									    		<p class="uk-text-large impx-text-gold uk-margin-remove impx-text-shadow uk-transition-scale-up uk-text-right uk-text-uppercase">Elige el mejor</p>
+								    		</div>
+								    	</div>
+							    	</div>
+						    	</li><!-- Elemento de la diapositiva #3 End -->
+						    	<li><!-- Elemento de la diapositiva #4 -->
+						    		<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
+								    	<img src="images/slideshow/full-slide-4.jpg" alt="Vista de la Piscina" data-uk-cover>
+								    	<div class="uk-overlay-primary uk-position-cover impx-overlay dark"></div>
+								    </div>
+								    <div class="uk-container uk-position-relative uk-height-1-1">
+										<div class="uk-position-center uk-flex uk-flex-middle">
+											<div class="impx-slide-fw-caption bottom">
+												<div class="impx-slide-fw-caption-outline center bottom uk-transition-slide-left"></div>
+									    		<h1 class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-center">Spa Oriental</h1>
+									    		<p class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-center uk-text-uppercase">Nuestro Servicio de Spa</p>
+								    		</div>
+								    	</div>
+							    	</div>
+						    	</li><!-- Elemento de la diapositiva #4 End -->
+						    	<li><!-- Elemento de la diapositiva #5 -->
+						    		<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-center">
+								    	<img src="images/slideshow/full-slide-5.jpg" alt="Vista del Restaurante" data-uk-cover>
+								    	<div class="uk-overlay-primary uk-position-cover impx-overlay dark"></div>
+							    	</div>
+							    	<div class="uk-container uk-position-relative uk-height-1-1">
+										<div class="uk-position-left uk-flex uk-flex-middle">
+											<div class="impx-slide-fw-caption">
+												<div class="impx-slide-fw-caption-outline uk-transition-slide-fade"></div>
+									    		<h1 class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">Restaurante en Casa</h1>
+									    		<p class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">Los Deliciosos Alimentos</p>
+								    		</div>
+								    	</div>
+							    	</div>
+							    </li><!-- Elemento de la diapositiva #5 End -->
+						    </ul>
+
+						    <!-- Navegación del Slideshow -->
+						    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+		        			<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+		        			<!-- Fin de la navegación del Slideshow -->
+
+		        		</div>
+				    </div>
+
+			    </div>
+			</div>
+		</div>
+		<!-- Fin del Slideshow -->
+
+		<!-- LISTA DE SERVICIOS Y FORMULARIO DE RESERVA -->
+		<div class="impx-content impx-services style2 bg-color-aqua pattern-1">
+			<div class="uk-container">
+
+				<div class="uk-margin-medium-bottom impx-margin-bottom-small" data-uk-grid>
+
+					<!-- Lista de servicios -->
+					<div class="uk-width-expand impx-services-list uk-margin-bottom impx-margin-bottom-small">
+						<h6 class="uk-heading-line uk-text-center uk-light uk-margin-bottom impx-text-white"><span>Nuestros Servicios</span></h6>
+						<div class="uk-child-width-1-4@xl uk-child-width-1-4@l uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-medium" data-uk-grid>
+							<div><!-- Elemento de la lista de servicios #1 -->
+						        <div class="uk-card uk-card-default uk-box-shadow-hover-xlarge impx-service-card uk-padding-bottom">
+						        	<div class="uk-card-media-top">
+						                <img src="images/service-1.jpg" alt="Servicio de Habitación">
+						            </div>
+						            <div class="uk-card-body uk-card-small uk-text-center">
+						            	<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Hotel &amp; Resort</div>
+						            	<p>
+											Un lugar exclusivo para relajarse y disfrutar de una experiencia de lujo con servicios de primera clase.
+										</p>
+						            	<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más &raquo;</a>
+						            </div>
+						        </div>
+						    </div><!-- Elemento de la lista de servicios #1 End -->
+						    <div><!-- Elemento de la lista de servicios #2 -->
+						        <div class="uk-card uk-card-default uk-box-shadow-hover-xlarge impx-service-card">
+						        	<div class="uk-card-media-top">
+						                <img src="images/service-2.jpg" alt="Servicio de Restaurante">
+						            </div>
+						            <div class="uk-card-body uk-card-small uk-text-center">
+						            	<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Restaurant</div>
+						            	<p>
+											Un restaurante de alta gama con una variedad de platos exquisitos y servicios de primera clase.
+										</p>
+						            	<a href="restaurant.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más &raquo;</a>
+						            </div>
+						        </div>
+						    </div><!-- Elemento de la lista de servicios #2 End -->
+						    <div><!-- Elemento de la lista de servicios #3 -->
+						        <div class="uk-card uk-card-default uk-box-shadow-hover-xlarge impx-service-card">
+						        	<div class="uk-card-media-top">
+						                <img src="images/service-3.jpg" alt="Servicio de Spa">
+						            </div>
+						            <div class="uk-card-body uk-card-small uk-text-center">
+						            	<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Spa</div>
+						            	<p>
+											Un servicio de spa de alta gama que ofrece una increible variedad de servicios.
+										</p>
+						            	<a href="spa.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más &raquo;</a>
+						            </div>
+						        </div>
+						    </div><!-- Elemento de la lista de servicios #3 End -->
+						    <div><!-- Elemento de la lista de servicios #4 -->
+						        <div class="uk-card uk-card-default uk-box-shadow-hover-xlarge impx-service-card">
+						        	<div class="uk-card-media-top">
+						                <img src="images/service-4.jpg" alt="Servicio de Exterior">
+						            </div>
+						            <div class="uk-card-body uk-card-small uk-text-center">
+						            	<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Exterior</div>
+										<p>
+											Disfruta de impresionantes vistas y espacios al aire libre ideales para el descanso.
+										</p>
+										<a href="activities.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más &raquo;</a>
+						            </div>
+						        </div>
+						    </div><!-- Elemento de la lista de servicios #4 End -->
+						</div>
+					</div>
+					<!-- Lista de servicios End -->
+				
+				</div>
+				
+				<!-- Formulario de reserva -->
+				<div class="uk-margin-medium-bottom uk-margin-medium-top">
+					<div class="impx-hp-booking-form impx-margin-top-small">
+						<h6 class="uk-heading-line uk-text-center uk-margin-small-bottom impx-text-white"><span>Formulario de reserva</span></h6>
+						<form class="uk-child-width-1-6@xl uk-child-width-1-6@l uk-child-width-1-6@m uk-child-width-1-3@s uk-grid-medium" data-uk-grid>
+							<div class="uk-form-controls">
+							    <div class="uk-inline">
+							    	<label class="uk-form-label impx-text-white">Correo electrónico</label>
+							    	<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
+							        <input class="uk-input booking-email uk-border-rounded uk-width-1-1" type="text" placeholder="Tu correo electrónico">
+							    </div>
+						    </div>
+						    <div class="uk-form-controls">
+							    <div class="uk-inline">
+							    	<label class="uk-form-label impx-text-white">Fecha de llegada</label>
+							    	<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
+							        <input class="uk-input booking-arrival uk-border-rounded" type="text" placeholder="Fecha de llegada">
+							    </div>
+							</div>
+						    <div class="uk-form-controls">
+							    <div class="uk-inline">
+							    	<label class="uk-form-label impx-text-white">Fecha de salida</label>
+							    	<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
+							        <input class="uk-input booking-departure uk-border-rounded" type="text" placeholder="Fecha de salida">
+							    </div>
+						    </div>
+						    <div class="uk-form-controls uk-position-relative">
+						    	<label class="uk-form-label impx-text-white" for="form-guest-select">Invitados</label>
+						    	<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
+					            <select class="uk-select uk-border-rounded" id="form-guest-select">
+					                <option value="">Por favor seleccione...</option>
+					                <option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+					            </select>
+						    </div>
+						   	<div class="uk-form-controls uk-position-relative">
+						    	<label class="uk-form-label impx-text-white" for="form-rooms-select">Habitaciones</label>
+						    	<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
+					            <select class="uk-select uk-border-rounded" id="form-rooms-select">
+					                <option value="">Por favor seleccione...</option>
+					                <option value="room_1">Single</option>
+									<option value="room_2">Double</option>
+									<option value="room_3">Primier</option>
+									<option value="room_4">Deluxe</option>
+					            </select>
+						    </div>
+						    <div>
+						    	<label class="uk-form-label empty-label" >&nbsp;</label>
+						        <button class="uk-button uk-width-1-1">Reservar Ahora!</button>
+						    </div>
+						</form>
+					</div>
+				</div>
+				<!-- Formulario de reserva End -->
+
+				<!-- Texto de introducción -->
+				<div class="uk-flex uk-flex-center uk-position-relative uk-position-z-index" data-uk-grid>
+					<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-1-1@m uk-width-1-1@s">
+						<div class="impx-intro uk-text-center uk-light uk-margin-remove-bottom">
+							<h2 class="uk-margin-remove-vertical uk-margin-remove-bottom">Elige las mejores habitaciones y realiza una reserva</h2>
+							<p class="impx-text-large uk-margin-remove-bottom uk-margin-small-top">Encuentra el confort y la elegancia en cada detalle.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Texto de introducción End -->
+
+			</div>
+		</div>
+		<!-- Lista de servicios y formulario de reserva End -->
+		
+		<!-- Lista de habitaciones -->
+		<div class="uk-position-relative impx-section-rooms bg1 uk-position-relative uk-background-fixed uk-background-center-center uk-height-1-1">
+			<div class="impx-overlay"></div>
+
+			<div class="uk-container">
+		    	<div class="uk-position-relative uk-visible-toggle">
+			        <ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-collapse uk-box-shadow-large uk-grid-match impx-rooms-grid"  data-uk-grid>
+			        	<li><!-- Elemento de la lista de habitaciones #1 -->
+			            	<div class="impx-room-item medium">
+			            		<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" data-uk-grid>
+			            			<div class="uk-card-media-left uk-cover-container uk-position-relative">
+			            				<canvas width="290" height="180"></canvas>
+								        <img src="images/rooms/room-square-1.jpg" alt="Habitación Individual" data-uk-cover>
+								        <div class="impx-overlay light overlay-squared padding-xwide"></div>
+								    </div>
+							        <div class="uk-card-body uk-position-relative impx-padding-medium">
+							        	<div class="uk-card-header uk-padding-remove-horizontal">
+							                <h4 class="uk-card-title uk-margin-remove-bottom">Habitación individual</h4>
+							                <p class="uk-text-meta uk-margin-remove-top">Comodidad y privacidad</p>
+									    </div>
+							        		<span class="uk-card-badge uk-label bg-color-aqua">desde $50/noche</span>
+							            <ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Espacio acogedor y funcional</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Cama cómoda para un buen descanso</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Servicios esenciales incluidos</li>
+										</ul>
+										 <div class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+									        <a href="room-detail.html" class="uk-button uk-button-text impx-text-aqua">Leer más &raquo;</a>
+									    </div>
+							        </div>
+								</div>
+							</div>
+						</li><!-- Elemento de la lista de habitaciones #1 End -->
+						<li><!-- Elemento de la lista de habitaciones #2 -->
+							<div class="impx-room-item medium">
+								<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" data-uk-grid>
+								    <div class="uk-card-media-left uk-cover-container uk-position-relative">
+								    	<canvas width="290" height="180"></canvas>
+								        <img src="images/rooms/room-square-5.jpg" alt="Habitación Doble" data-uk-cover>
+								        <div class="impx-overlay light overlay-squared padding-xwide"></div>
+								    </div>
+							        <div class="uk-card-body uk-position-relative impx-padding-medium">
+							        	<div class="uk-card-header uk-padding-remove-horizontal">
+							                <h4 class="uk-card-title uk-margin-remove-bottom">Habitación Doble</h4>
+							                <p class="uk-text-meta uk-margin-remove-top">Comodidad y privacidad</p>
+									    </div>
+							        	<span class="uk-card-badge uk-label bg-color-aqua">desde $80/noche</span>
+							            <ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Ideal para parejas o amigos</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Mayor amplitud y comodidad</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Servicios exclusivos para dos</li>
+										</ul>
+										<div class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+									        <a href="room-detail.html" class="uk-button uk-button-text impx-text-aqua">Leer más &raquo;</a>
+									    </div>
+							        </div>
+								</div>
+							</div>
+						</li><!-- Elemento de la lista de habitaciones #2 End -->
+						<li><!-- Elemento de la lista de habitaciones #3 -->
+							<div class="impx-room-item medium">
+								<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" data-uk-grid>
+								    <div class="uk-card-body uk-position-relative impx-padding-medium">
+							        	<div class="uk-card-header uk-padding-remove-horizontal">
+							                <h4 class="uk-card-title uk-margin-remove-bottom">Habitación Premier</h4>
+							                <p class="uk-text-meta uk-margin-remove-top">Comodidad y privacidad</p>
+									    </div>
+							        	<span class="uk-card-badge uk-label bg-color-aqua">desde $100/noche</span>
+							            <ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Diseño elegante y sofisticado</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Vistas panorámicas impresionantes</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Servicios para una estancia única</li>
+										</ul>
+										<div class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+									        <a href="room-detail.html" class="uk-button uk-button-text impx-text-aqua">Leer más &raquo;</a>
+									    </div>
+							        </div>
+							        <div class="uk-card-media-right uk-cover-container uk-position-relative">
+							        	<canvas width="290" height="180"></canvas>
+								        <img src="images/rooms/room-square-3.jpg" alt="Habitación Premier" data-uk-cover>
+								        <div class="impx-overlay light overlay-squared padding-xwide"></div>
+								    </div>
+								</div>
+							</div>
+						</li><!-- Elemento de la lista de habitaciones #3 End -->
+						<li><!-- Elemento de la lista de habitaciones #4 -->
+							<div class="impx-room-item medium">
+								<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" data-uk-grid>
+									<div class="uk-card-body uk-position-relative impx-padding-medium">
+							        	<div class="uk-card-header uk-padding-remove-horizontal">
+							                <h4 class="uk-card-title uk-margin-remove-bottom">Habitación Deluxe</h4>
+							                <p class="uk-text-meta uk-margin-remove-top">Comodidad y privacidad</p>
+									    </div>
+							        	<span class="uk-card-badge uk-label bg-color-aqua">desde $150/noche</span>
+							            <ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Experiencia de lujo incomparable</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Decoración exclusiva</li>
+											<li><span class="impx-text-aqua" data-uk-icon="icon: check; ratio: 1;"></span> Atención y servicios de alto nivel</li>
+										</ul>
+										<div class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+									        <a href="room-detail.html" class="uk-button uk-button-text impx-text-aqua">Leer más &raquo;</a>
+									    </div>
+							        </div>
+								    <div class="uk-card-media-right uk-cover-container uk-position-relative">
+								    	<canvas width="290" height="180"></canvas>
+								        <img src="images/rooms/room-square-4.jpg" alt="Habitación Deluxe" data-uk-cover>
+								        <div class="impx-overlay light overlay-squared padding-xwide"></div>
+								    </div>
+								</div>
+							</div>
+						</li><!-- Elemento de la lista de habitaciones #4 End -->
+			        </ul>
+		        </div>
+			</div>
+
+		</div>
+		<!-- Lista de habitaciones End -->
+
+		<!-- ¿Por qué elegirnos? -->
+		<div class="uk-padding-large uk-padding-remove-horizontal uk-position-relative bg-img3 impx-features">
+			<div class="uk-container">
+
+				<div class="uk-width-3-4@xl uk-width-3-4@l uk-width-1-1@m uk-width-1-1@s uk-margin-medium-top uk-position-relative uk-height-1-1 impx-features-content" data-uk-grid>
+
+					<!-- Texto de introducción -->
+					<div class="impx-intro uk-text-left">
+						<h2 class="uk-margin-remove-bottom uk-margin-small-top">¿Por qué elegirnos?</h2>
+						<p class="uk-margin-remove uk-text-uppercase">Nuestro hotel es un lugar especial donde cada detalle está pensado para tu bienestar y satisfacción.</p>
+					</div>
+					<!-- Texto de introducción End -->
+					<ul class="uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s impx-features-hl uk-grid-medium uk-grid-match impx-margin-top impx-margin-top-small" data-uk-grid>
+						<li><!-- Elemento de la lista de razones #1 -->
+					        <div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color1 impx-feature-item uk-position-relative">
+					        	<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Mejor valor para la familia</h6>
+					        	<p class="uk-margin-remove impx-text-lighter">Ofrecemos tarifas especiales para familias y grupos grandes. ¡Consulta nuestras promociones!</p>
+					        	<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+					        </div>
+					    </li><!-- Elemento de la lista de razones #1 End -->
+						<li><!-- Elemento de la lista de razones #2 -->
+							 <div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color2 impx-feature-item uk-position-relative">
+								<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Prioridad de servicios</h6>
+								<p class="uk-margin-remove impx-text-lighter">Atención personalizada y servicios exclusivos para una experiencia sin preocupaciones.</p>
+								<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+							</div>
+						</li><!-- Elemento de la lista de razones #2 End -->
+						<li><!-- Elemento de la lista de razones #3 -->
+							<div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color3 impx-feature-item uk-position-relative">
+								<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Ubicación privilegiada</h6>
+								<p class="uk-margin-remove impx-text-lighter">Cerca de los principales atractivos turísticos y zonas comerciales de la ciudad.</p>
+								<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+							</div>
+						</li><!-- Elemento de la lista de razones #3 End -->
+						<li><!-- Elemento de la lista de razones #4 -->
+							 <div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color4 impx-feature-item uk-position-relative">
+								<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Garantía de satisfacción</h6>
+								<p class="uk-margin-remove impx-text-lighter">Comprometidos con ofrecerte una experiencia inolvidable con la mejor calidad.</p>
+								<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+							</div>
+						</li><!-- Elemento de la lista de razones #4 End -->
+						<li><!-- Elemento de la lista de razones #5 -->
+							 <div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color5 impx-feature-item uk-position-relative">
+								<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Panorama hermoso</h6>
+								<p class="uk-margin-remove impx-text-lighter">Disfruta de vistas impresionantes en un entorno natural y relajante.</p>
+								<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+							</div>
+						</li><!-- Elemento de la lista de razones #5 End -->
+						<li><!-- Elemento de la lista de razones #6 -->
+							<div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color6 impx-feature-item uk-position-relative">
+								<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Disfruta tu tiempo</h6>
+								<p class="uk-margin-remove impx-text-lighter">Aprovecha cada momento con actividades y servicios pensados para tu descanso.</p>
+								<a href="rooms.html" class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Ver más »</a>
+							</div>
+						</li><!-- Elemento de la lista de razones #6 End -->
+					</ul>
+
+				</div>
+
+			</div>
+		</div>						
+		<!-- ¿Por qué elegirnos? End -->
+			
+		<!-- Planes de precios -->
+		<div class="uk-padding uk-padding-remove-horizontal impx-section-pricing">
+			<div class="uk-container">
+				<div class="uk-flex uk-flex-center uk-margin-medium-bottom impx-margin-bottom-small">
+					<!-- Introducción de precios -->
+					<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-text-center hp-offer-intro">
+						<h2 class="uk-margin-small-bottom">Nuestras ofertas especiales</h2>
+						<p class="impx-text-large uk-margin-remove-top uk-margin-small-bottom">Disfruta de 3 noches de hospedaje en un hotel de primera clase <span class="uk-label uk-label-danger uk-text-bold bg-color-gold">por solo $299</span> Incluye desayuno, acceso a la piscina y más. ¡Reserva ahora y vive una experiencia inolvidable!</p> 
+					</div>
+					<!-- Introducción de precios End -->
+				</div>
+
+				<div class="uk-flex uk-flex-center uk-margin-bottom">
+					<div class="uk-width-5-6@xl uk-width-5-6@l uk-width-5-6@m uk-width-1-1@s impx-pricing-list" data-uk-grid>
+
+						<ul class="uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-3@s uk-grid-collapse impx-promo-pricing-list" data-uk-grid>
+							<li class="uk-position-relative"><!-- Elemento de la lista de precios #1-->
+								<div class="impx-promo-pricing uk-box-shadow-large uk-light">
+									<div class="uk-position-relative">
+										<img src="images/pricing-img-1.jpg" alt="Plata">
+										<div class="impx-overlay light"></div>
+									</div>
+									<div class="uk-position-relative uk-padding bg-color-gold">
+							            <h4 class="uk-heading-line uk-margin-small-bottom"><span>Plata</span></h4>
+							            <span class="uk-label uk-label-success impx-text-gold uk-text-bold">$299 por 3 noches</span>
+										<ul class="uk-list">
+											<li><i class="fa fa-bed"></i> Alojamiento en habitación estándar</li>
+											<li><i class="fa fa-coffee"></i> Desayuno incluido</li>
+											<li><i class="fa fa-group"></i> Acceso a piscina y gimnasio</li>
+										</ul>
+										<a href="rooms.html" class="uk-button impx-button small impx-button-outline small-border">Ver detalles <i class="fa fa-arrow-right"></i></a>
+							        </div>
+						        </div>
+							</li><!-- Elemento de la lista de precios #1 End -->
+							<li class="uk-position-relative uk-position-z-index"><!-- Elemento de la lista de precios #2 -->
+								<div class="impx-promo-pricing uk-box-shadow-xlarge uk-light featured">
+									<div class="uk-position-relative">
+									<img src="images/pricing-img-2.jpg" alt="Oro">
+										<div class="impx-overlay light"></div>
+									</div>
+									<div class="uk-position-relative uk-padding bg-color-aqua">
+							            <h3 class="uk-heading-line uk-margin-small-bottom"><span>Oro</span></h3>
+							            <span class="uk-label uk-label-success impx-text-aqua uk-text-bold">$399 por 3 noches</span>
+										<ul class="uk-list uk-list-large">
+											<li><i class="fa fa-bed"></i>Alojamiento en habitación superior</li>
+											<li><i class="fa fa-coffee"></i> Desayuno y cena incluidos</li>
+											<li><i class="fa fa-group"></i> Acceso a piscina, gimnasio y spa</li>
+										</ul>
+										<a href="rooms.html" class="uk-button impx-button small impx-button-outline small-border">Ver detalles <i class="fa fa-arrow-right"></i></a>
+							        </div>
+						        </div>
+							</li><!-- Elemento de la lista de precios #2 End -->
+							<li class="uk-position-relative"><!-- Elemento de la lista de precios #3 -->
+								<div class="impx-promo-pricing uk-box-shadow-large uk-light">
+									<div class="uk-position-relative">
+										<img src="images/pricing-img-4.jpg" alt="Diamante">
+										<div class="impx-overlay light"></div>
+									</div>
+									<div class="uk-position-relative uk-padding bg-color-gold">
+							            <h4 class="uk-heading-line uk-margin-small-bottom"><span>Diamante</span></h4>
+							            <span class="uk-label uk-label-success impx-text-gold uk-text-bold">$499 por 3 noches</span>
+										<ul class="uk-list">
+											<li><i class="fa fa-bed"></i> Alojamiento en suite de lujo</li>
+											<li><i class="fa fa-coffee"></i> Desayuno, almuerzo y cena incluidos</li>
+											<li><i class="fa fa-group"></i> Acceso a todas las instalaciones</li>
+										</ul>
+										<a href="rooms.html" class="uk-button impx-button small impx-button-outline small-border">Ver detalles <i class="fa fa-arrow-right"></i></a>
+							        </div>
+						        </div>
+							</li><!-- Elemento de la lista de precios #3 End -->
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Planes de precios End -->
+
+		<!-- Carrusel de testimonios -->
+		<div class="uk-padding uk-padding-remove-horizontal uk-position-relative impx-section-testimonial uk-background-fixed uk-background-center-center uk-height-1-1">
+			<div class="impx-overlay"></div>
+			<div class="uk-container">
+
+				<div class="uk-flex uk-flex-right uk-margin-bottom">
+					
+					<div class="uk-width-3-5@xl uk-width-3-5@l uk-width-4-5@m">
+
+						<div class="impx-intro uk-text-right uk-light uk-position-relative">
+    						<h2 class="uk-margin-small-bottom">Testimonios</h2>
+    						<p class="impx-text-large uk-margin-remove-top uk-margin-medium-bottom">Descubre lo que opinan quienes han vivido la experiencia con nosotros. Sus palabras reflejan nuestro compromiso con la calidad y el buen servicio. 💬✨</p>
+    					</div>
+
+						<!-- Lista de testimonios -->
+						<div class="impx-testimonial-list">
+							<div  data-uk-slider="{autoplay: true, finite: true}">
+								<div class="uk-position-relative uk-visible-toggle uk-light">
+								    <ul class="uk-slider-items uk-child-width-1-1" data-uk-grid>
+								        <li class="uk-padding uk-padding-remove-vertical"><!-- Elemento de la lista de testimonios #1 -->
+											<div class="impx-testimonial-item impx-contrast">
+												<div class="impx-testi-container">
+													<div class="impx-testi-text">
+														<blockquote>
+															<p>Una experiencia inolvidable. Las habitaciones son cómodas, el servicio es excelente y la vista es espectacular. ¡Definitivamente volveré!</p>
+														</blockquote>
+													</div>
+													<div class="uk-text-center">
+														<div class="impx-testi-name"><p>Mrs. Smith Yan</p></div>
+														<div class="impx-company-name"><p class="bg-color-gold">Book Author</p></div>	
+													</div>
+				    							</div>
+												<div class="impx-testi-image"><img src="images/peoples/testi-people1.jpg" alt="People 1" /></div>
+											</div>
+			    						</li><!-- Elemento de la lista de testimonios #1 End -->
+			    						<li class="uk-padding uk-padding-remove-vertical"><!-- Elemento de la lista de testimonios #2 -->
+											<div class="impx-testimonial-item impx-contrast">
+												<div class="impx-testi-container">
+													<div class="impx-testi-text">
+														<blockquote>
+															<p>Desde el momento en que llegamos, el personal nos hizo sentir como en casa. La piscina y las instalaciones son de primera. 100% recomendado.</p>
+														</blockquote>
+													</div>
+													<div class="uk-text-center">
+														<div class="impx-testi-name"><p>Mrs. Smith Yan</p></div>
+														<div class="impx-company-name"><p class="bg-color-gold">Book Author</p></div>	
+													</div>
+				    							</div>
+												<div class="impx-testi-image"><img src="images/peoples/testi-people2.jpg" alt="People 1"   /></div>
+											</div>
+			    						</li><!-- Elemento de la lista de testimonios #2 End -->
+			    						<li class="uk-padding uk-padding-remove-vertical"><!-- Elemento de la lista de testimonios #3 -->
+											<div class="impx-testimonial-item impx-contrast">
+												<div class="impx-testi-container">
+													<div class="impx-testi-text">
+														<blockquote>
+															<p>El mejor lugar para desconectarse y relajarse. La comida es deliciosa, las áreas verdes son hermosas y el ambiente es muy tranquilo.</p>
+														</blockquote>
+													</div>
+													<div class="uk-text-center">
+														<div class="impx-testi-name"><p>Mrs. Smith Yan</p></div>
+														<div class="impx-company-name"><p class="bg-color-gold">Book Author</p></div>	
+													</div>
+				    							</div>
+												<div class="impx-testi-image"><img src="images/peoples/testi-people3.jpg" alt="People 1"   /></div>
+											</div>
+			    						</li><!-- Elemento de la lista de testimonios #3 End -->
+			    						<li class="uk-padding uk-padding-remove-vertical"><!-- Elemento de la lista de testimonios #4 -->
+											<div class="impx-testimonial-item impx-contrast">
+												<div class="impx-testi-container">
+													<div class="impx-testi-text">
+														<blockquote>
+															<p>Pasamos unas vacaciones increíbles en este resort. Todo impecable, el personal muy amable y las actividades ofrecidas fueron divertidas para toda la familia.</p>
+														</blockquote>
+													</div>
+													<div class="uk-text-center">
+														<div class="impx-testi-name"><p>Mrs. Smith Yan</p></div>
+														<div class="impx-company-name"><p class="bg-color-gold">Book Author</p></div>	
+													</div>
+				    							</div>
+												<div class="impx-testi-image"><img src="images/peoples/testi-people4.jpg" alt="People 1"   /></div>
+											</div>
+			    						</li><!-- Elemento de la lista de testimonios #4 End -->
+									</ul>
+
+									<!-- Navegación de testimonios -->
+									<a class="uk-position-center-left  uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+        							<a class="uk-position-center-right uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+        							<!-- Navegación de testimonios End -->
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Carrusel de testimonios End -->
+
+		<!-- Sección de contacto -->
+		<div class="impx-contact" style="position: relative; min-height: 500px;">
+			<div id="impx-gmap" style="height: 100%; position: absolute; width: 100%; top: 0; left: 0;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4166786378408!2d-77.04528088518764!3d-12.046399991481592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c6a5453c81%3A0x2f7993c995e111f2!2sAv.%2028%20de%20Julio%2C%20Lima%2C%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1648146000000!5m2!1ses-419!2spe" 
+                    width="100%" 
+                    height="100%" 
+                    style="border: 0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+			<div class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal" style="position: relative; background: linear-gradient(to bottom, rgba(0,128,128,0.6) 0%, rgba(0,128,128,0.75) 100%);">
+				<div class="uk-container">
+					<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-margin-medium-bottom">
+						<!-- Ubicación -->
+						<h4 class="impx-text-white">Nuestra ubicación</h4>
+						<p class="impx-text-large impx-text-light">📍 Encuéntranos fácilmente
+							Estamos ubicados en un punto estratégico para brindarte el mejor servicio. Visítanos y descubre todo lo que tenemos para ofrecerte.</p>
+						<!-- Ubicación End -->
+					</div>
+
+					<div data-uk-grid class="uk-padding-remove-bottom"><!-- Dirección -->
+						<div class="uk-light uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+							<h5 class="uk-heading-line uk-margin-remove-bottom impx-text-white"><span>Dirección</span></h5>
+							<p class="impx-text-large uk-margin-top impx-text-light">Av. 28 de Julio 1234<br/> Lima, Perú</p>
+						</div><!-- Dirección End-->
+						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s"><!-- Teléfono -->
+							<h5 class="uk-heading-line uk-margin-bottom impx-text-white"><span>Teléfono</span></h5>
+							<p class="impx-text-large uk-margin-remove impx-text-light">+51 923456789<br/>+51 987456123</p>
+						</div><!-- Teléfono End -->
+						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s"><!-- Email -->
+							<h5 class="uk-heading-line uk-margin-bottom impx-text-white"><span>Email</span></h5>
+							<a href="mailto:cs@sativa.pe" class="impx-text-large impx-text-light">cs@sativa.pe</a><br/>
+							<a href="mailto:info@sativa.pe" class="impx-text-large impx-text-light">info@sativa.pe</a>
+						</div><!-- Email End -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sección de contacto End -->
+
+		<!-- Footer -->
+		<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+			<div class="uk-container">
+				<div class="uk-flex uk-flex-center data-uk-grid">
+					<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
+						<div class="impx-footer-logo uk-align-center uk-text-center">
+							<!-- Logo del footer -->
+							<img src="images/logo.png" alt="" class="">
+							<!-- Nota del footer -->
+							<p class="uk-margin-bottom">"Hotel Sativa & Resort es un destino ideal para quienes buscan relajación y confort en un entorno natural. Con habitaciones de lujo, piscinas cristalinas y servicios de primer nivel, ofrecemos una experiencia inolvidable para nuestros huéspedes. Disfruta de la mejor gastronomía, actividades recreativas y un ambiente exclusivo diseñado para el descanso y la diversión."</p>							
+							<!-- Derechos de autor -->
+							<p class="impx-copyright"><a target="_blank" href="https://github.com/gianmattus-programmer">Gianmattus-Programmer</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Scroll to Top -->
+			<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
+			<!-- Scroll to Top End -->
+		</footer>
+		<!-- Fin del Footer -->
+
+    	<!-- Javascript -->
+    	<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script src="js/jquery.parallax.min.js"></script>
+        <script src="js/tiny-date-picker.min.js"></script>
+        <script src="js/date-config.js"></script>
+        <script src="js/simple-lightbox.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
+

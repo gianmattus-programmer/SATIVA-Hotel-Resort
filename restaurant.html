@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        
+        <!-- Meta estándar -->
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Propiedades del sitio -->
+        <title>Restaurant - Sativa</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+       <!-- Google Fonts -->
+       	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+       	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/tiny-date-picker.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media-query.css" />
+
+    </head>
+
+    <body id="impx-body">
+    	
+		<!-- Encabezado -->
+		<header id="impx-header">
+			<div>
+				<div class="impx-menu-wrapper style2 resto" data-uk-sticky="top: .impx-slide-container; animation: uk-animation-slide-top">
+
+					<!-- Navegación móvil Start -->
+					<div id="mobile-nav" data-uk-offcanvas="mode: push; overlay: true">
+				        <div class="uk-offcanvas-bar">
+				            <ul class="uk-nav uk-nav-default">
+				                <li><a href="index.html">Inicio</a></li>
+				                <li><a href="rooms.html">Habitaciones</a></li>
+				                <li><a href="restaurant.html">Restaurante</a></li>
+				                <li><a href="spa.html">Spa</a></li>
+				                <li><a href="activities.html">Actividades</a></li>
+				                <li class="uk-parent">
+				                	<a href="#">Páginas</a>
+				                	<ul class="uk-nav-sub">
+					                	<li><a href="about.html">Nosotros</a></li>
+										<li><a href="testimonial.html">Testimonios</a></li>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="single-post.html">Noticia</a></li>
+										<li><a href="gallery.html">Galería</a></li>
+									</ul>
+				                </li>
+				                <li><a href="contact.html">Contacto</a></li>
+				            </ul>
+
+				        </div>
+				    </div>
+				    <a href="#mobile-nav" class="uk-hidden@xl uk-hidden@l uk-hidden@m mobile-nav" data-uk-toggle="target: #mobile-nav"><i class="fa fa-bars"></i>Menu</a>
+		            <!-- Fin de la navegación móvil -->
+
+		            <!-- Encabezado superior -->
+					<div class="impx-top-header style2">
+						<div class="uk-container uk-container-expand">
+							
+							<div class="uk-grid">
+								<!-- Teléfono del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-phone">
+										<p><i class="fa fa-phone"></i> Teléfono : +51 987654321</p>  
+									</div>
+								</div><!-- Teléfono del encabezado End-->
+								<!-- Redes sociales del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook-f"></i>Facebook</a></li>
+											<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+											<li><a href="#"><i class="fa fa-whatsapp"></i>Whatsapp</a></li>
+										</ul>
+									</div>
+								</div><!-- Redes sociales del encabezado End -->
+							</div>
+
+						</div>
+					</div>
+					<!-- Encabezado superior End -->
+
+
+					<div class="uk-container uk-container-expand">
+						<div data-uk-grid>
+
+							<!-- Logo del encabezado -->
+							<div class="uk-width-auto">
+								<div class="impx-logo">
+									<a href="index.html"><img src="images/logo.png" class="" alt="Logo"></a>
+								</div>
+							</div>
+							<!-- Logo del encabezado End-->
+
+							<!-- Navegación del encabezado -->
+							<div class="uk-width-expand uk-position-relative">								
+								<nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
+									<div class="uk-navbar-right impx-navbar-right">
+	        							<ul class="uk-navbar-nav impx-nav style2">
+											<!-- Elementos de navegación -->
+									    	<li class="uk-parent">
+								    			<a href="index.html" class="uk-navbar-nav-subtitle"><div>Inicio<div class="uk-navbar-subtitle">Bienvenido</div></div></a>
+									    	</li>
+									    	<li>
+									        	<a href="rooms.html" class="uk-navbar-nav-subtitle"><div>Habitaciones<div class="uk-navbar-subtitle">Nuestras Mejores Suites</div></div></a>
+									        </li>
+									        <li class="uk-active"><a href="restaurant.html"><div>Restaurante<div class="uk-navbar-subtitle">Restaurante en el hotel</div></div></a></li>
+											<li><a href="spa.html"><div>Spa<div class="uk-navbar-subtitle">Nuestro Spa</div></div></a></li>
+											<li><a href="activities.html" class="uk-navbar-nav-subtitle"><div>Actividades<div class="uk-navbar-subtitle">Nuestras Instalaciones</div></div></a></li>
+											<li class="uk-parent">
+								    			<a href="#" class="uk-navbar-nav-subtitle"><div>Páginas<div class="uk-navbar-subtitle">Otras Páginas</div></div></a>
+									    		<div class="uk-navbar-dropdown">
+	                								<ul class="uk-nav uk-navbar-dropdown-nav">
+														<li><a href="about.html">Nosotros</a></li>
+														<li><a href="testimonial.html">Testimonios</a></li>
+														<li><a href="blog.html">Blog</a></li>
+														<li><a href="single-post.html">Noticias</a></li>
+														<li><a href="gallery.html">Galeria</a></li>
+													</ul>
+												</div>
+									    	</li>
+									    <li><a href="contact.html" class="uk-navbar-nav-subtitle"><div>Contacto<div class="uk-navbar-subtitle">Contáctanos</div></div></a></li>
+									    </ul>
+									    <!-- Elementos de navegación End -->
+									</div>
+								</nav>
+							</div>
+							<!-- Navegación del encabezado End -->
+
+							<!-- Ribbon de promoción -->
+							<div class="uk-width-auto uk-position-relative">
+								<div class="ribbon">
+								  <i><span><s></s>30% <span>¡OFF!</span><s></s></span></i>
+								</div>
+							</div>
+							<!-- Fin del Ribbon de promoción -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+		<!-- Fin del encabezado -->
+
+		<!-- Imagen principal -->
+		<div class="impx-slide-container style1 resto">
+			<div class="impx-slideshow-fw">
+				<div class="impx-hero-resto uk-position-relative  uk-background-fixed uk-background-center-center uk-height-1-1">
+					<div class="impx-overlay dark"></div>
+			    	<div class="uk-container">
+			    		<div class="uk-grid uk-flex uk-flex-center uk-flex-middle">
+			    			<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-1@m  uk-width-1-1@s uk-position-center uk-margin-large-top">
+		    					<div class="impx-slide-fw-caption resto-caption uk-position-relative uk-position-z-index uk-text-center uk-light">
+		    						<!-- Intro -->
+						    		<h1 class="impx-text-shadow">Sativa Restaurant</h1>
+						    		<p class="uk-margin-remove impx-text-shadow uk-text-lead">Sabores naturales y experiencias únicas en cada plato.</p>
+						    		<div class="uk-margin">
+				    					<i class="fa fa-coffee impx-slide-icon impx-text-white"></i>
+				    					<i class="fa fa-cutlery impx-slide-icon impx-text-white"></i>
+				    					<i class="fa fa-glass impx-slide-icon impx-text-white"></i>
+			    					</div>
+			    					<!-- Intro End -->
+					    		</div>
+				    		</div>
+			    		</div>
+		    		</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin de la imagen principal -->
+
+		<!-- Características -->
+        <div class="uk-padding uk-padding-remove-horizontal uk-padding-remove-bottom bg-color-gray  pattern-1 impx-resto-badge">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <!-- Imagen -->
+                    <div class="uk-width-2-5@xl uk-width-2-5@l uk-width-2-5@m uk-width-1-1@s uk-vertical-align-bottom uk-position-relative uk-position-z-index impx-negative-top xxlarge">
+                        <img src="images/chef-woman.png" alt="Chef Stand" class="img-resto-intro uk-align-center"/>
+                    </div>
+                    <!-- Imagen End -->
+                    <!-- Información de contacto -->
+                    <div class="uk-width-3-5@xl uk-width-3-5@l uk-width-3-5@m uk-width-1-1@s impx-intro resto">
+                        <h3>Haz una cita</h3>
+                        <p class="impx-text-large uk-margin-bottom">Separa una cita a nuestro restaurante y disfruta de nuestros platos deliciosos.</p>                        
+                        <ul class="impx-list-inline impx-hours">
+                            <li><i class="fa fa-check impx-text-aqua"></i><strong class="impx-text-aqua">Desayuno</strong> 6.00 AM  - 10.00 AM</li>
+                            <li><i class="fa fa-check impx-text-aqua"></i><strong class="impx-text-aqua">Almuerzo</strong> 10.00 AM - 2.00 PM</li>
+                            <li><i class="fa fa-check impx-text-aqua"></i><strong class="impx-text-aqua">Cena</strong> 4.00 PM - 12.00 PM</li>
+                        </ul>
+                    </div>
+                    <!-- Información de contacto End -->                    
+                </div>
+            </div>
+        </div>
+        <!-- Fin de las características -->
+
+        <!-- Destacado -->
+        <div class="uk-padding uk-margin-bottom resto-feat uk-padding-remove-horizontal">
+			<div class="uk-container">
+				<div data-uk-grid>
+
+    				<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-1-1@m uk-width-1-1@s uk-margin-top">
+    					<div class="impx-intro resto margin-medium"><!-- intro -->
+    						<h3>Obtén ofertas especiales ahora!</h3>
+    						<p class="uk-margin-medium-bottom impx-text-large">Disfruta de nuestros platos deliciosos y de nuestras ofertas especiales.</p>
+    					</div><!-- intro end -->
+
+    					<!-- Elementos destacados -->
+                        <ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s" data-uk-grid>
+                            <li class="resto-feat-item"><!-- Elemento destacado #1 -->
+                            	<div data-uk-grid>
+	                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s">
+	                                	<div class="uk-position-relative">
+		                                    <img src="images/intro-img-1.jpg" alt="resort" class="uk-border-circle">
+		                                    <div class="impx-overlay light overlay-outline padding-medium"></div>
+	                                    </div>
+	                                </div>
+	                                <div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
+	                                     <h5 class="uk-margin-remove-bottom">Experiencia Gastronómica Exquisita</h5>
+	                                    <p class="uk-margin-small-top uk-margin-remove-bottom">Disfruta de una selección de platillos preparados con ingredientes frescos y de la más alta calidad.</p>
+	                                </div>
+	                            </div>
+                            </li><!-- Elemento destacado #1 End -->
+                            <li class="resto-feat-item"><!-- Elemento destacado #2-->
+                            	<div data-uk-grid>
+	                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s">
+	                                	<div class="uk-position-relative">
+	                                    	<img src="images/intro-img-2.jpg" alt="resort" class="uk-border-circle">
+	                                    	<div class="impx-overlay light overlay-outline padding-medium"></div>
+	                                	</div>
+	                                </div>
+	                                <div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
+	                                    <h5 class="uk-margin-remove-bottom">Selección de Vinos y Bebidas</h5>
+	                                    <p class="uk-margin-small-top uk-margin-remove-bottom">Acompaña tu comida con nuestra exclusiva selección de vinos y cócteles cuidadosamente elegidos.</p>
+	                                </div>
+                                </div>
+                            </li><!-- Elemento destacado #2 End -->
+
+                            <li class="resto-feat-item"><!-- Elemento destacado #3 -->
+                            	<div data-uk-grid>
+	                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s">
+	                                	<div class="uk-position-relative">
+	                                    	<img src="images/intro-img-3.jpg" alt="resort" class="uk-border-circle">
+	                                    	<div class="impx-overlay light overlay-outline padding-medium"></div>
+	                                	</div>
+	                                </div>
+	                                <div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
+	                                     <h5 class="uk-margin-remove-bottom">Arte Culinario en Cada Plato</h5>
+	                                    <p class="uk-margin-small-top uk-margin-remove-bottom">Nuestros chefs combinan creatividad y pasión para ofrecerte una experiencia única en cada bocado.</p>
+	                                </div>
+	                            </div>
+                            </li><!-- Elemento destacado #3 End -->
+                            <li class="resto-feat-item"><!-- Elemento destacado #4 -->
+                            	<div data-uk-grid>
+	                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s">
+	                                	<div class="uk-position-relative">
+	                                    	<img src="images/intro-img-4.jpg" alt="resort" class="uk-border-circle">
+	                                    	<div class="impx-overlay light overlay-outline padding-medium"></div>
+	                                	</div>
+	                                </div>
+	                                <div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
+	                                    <h5 class="uk-margin-remove-bottom">Ambiente Acogedor y Elegante</h5>
+	                                    <p class="uk-margin-small-top uk-margin-remove-bottom">Un espacio diseñado para que vivas momentos inolvidables en un ambiente cálido y sofisticado.</p>
+	                                </div>
+	                            </div>
+                            </li><!-- Elemento destacado #4 End -->
+                        </ul>
+                        <!-- Elementos destacados End -->
+                    </div>
+
+    				 <!-- Texto de introducción -->
+                    <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-1@m">
+                    	<div class="impx-img-stacked uk-padding-remove-horizontal">
+                        	<img src="images/gallery/resto-gal-7.jpg" alt="" class="">
+                        	<img src="images/gallery/resto-gal-2.jpg" alt="" class="">
+                    	</div>
+                    </div>
+                    <!-- Texto de introducción End -->
+
+				</div>
+			</div>
+		</div>
+		<!-- Fin del destacado -->
+
+		<!-- Menú de reserva -->
+		<div id="impx-menu-carousel" class="impx-menu-carousel uk-padding uk-position-relative uk-padding-remove-horizontal mobile-rmv-pad vert uk-background-fixed uk-background-center-center uk-height-1-1">
+			<div class="impx-overlay dark"></div>
+			<div class="uk-container uk-container-large">
+
+				<!-- Intro -->
+				<div class="uk-grid uk-light">
+					<div class="uk-width-xlarge-2-3 uk-width-large-2-3 uk-width-medium-3-4  uk-width-xlarge-1-1 uk-container-center impx-margin-top">
+						<div class="impx-intro intro-light uk-text-center uk-contrast uk-position-relative uk-position-z-index" >
+    						<h2 class="uk-margin-remove">Encuentra nuestro mejor menú delicioso</h2>
+    					</div>
+					</div>
+				</div>
+				<!-- Intro End -->
+
+				<!-- Grupos de menú -->
+				<div class="uk-grid uk-flex uk-flex-center">
+					<div class="uk-width-1-1">
+
+						<div class="impx-menu-cat-group impx-menu-cat-group-carousel">
+							<div class="uk-position-relative">
+								<!-- Grupo de menú #1 -->
+								<ul class="uk-grid uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-1@s uk-grid-collapse impx-menu-page-2col">
+			    					<li class="impx-menu-cat-group-wrapper">
+			    						<div class="impx-menu-cat-group-outline"></div>
+			    						<div class="impx-menu-page-group impx-menu-page-3col">
+			    							<div class="uk-grid uk-grid-medium uk-margin-medium-bottom impx-margin-bottom">
+			    								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-4-5@s impx-menu-page-group-title">
+			    									<h4 class="uk-margin-remove">Desayuno</h4>
+			    									<p>☀️ Empieza el día con energía con nuestro delicioso desayuno, preparado con ingredientes frescos y naturales.</p>
+			    								</div>
+                                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-5@s uk-container-center">
+                                                    <img src="images/menu/menu-square3.jpg" alt="Menu Image" class="uk-border-circle uk-align-center" />
+                                                </div>
+			    							</div>
+				    						<ul class="impx-menu-page menu-list">
+												<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Classic Pancakes</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$6.50</h5>
+						  									</div>
+						  									<p>Panqueques clásicos con fresas y sirope de arándanos.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item  impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Avocado Toast<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$7.00</h5>
+						  									</div>
+						  									<p>Panqueques con aguacate y huevo duro.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item impx-menu-new">
+						    							<div class="impx-menu-page-content">
+						  									<h5>French Omelette<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$5.50</h5>
+						  									</div>
+						  									<p>Omelette con queso, cebolla y tomate.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Chia Pudding</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$6.00</h5>
+						  									</div>
+						  									<p>Chia pudding con fresas y arándanos.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>English Breakfast</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$8.50</h5>
+						  									</div>
+						  									<p>Tostadas con queso, huevo y bacon.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item  impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Berry Smoothie Bowl<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$6.50</h5>
+						  									</div>
+						  									<p>Batido de frutas con fresas, arándanos y yogur.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+							    			</ul>
+						    			</div>
+			    					</li>
+			    					<!-- Fin del grupo de menú #1 -->
+
+			    					<!-- Grupo de menú #2 -->
+			    					<li class="impx-menu-cat-group-wrapper">
+			    						<div class="impx-menu-cat-group-outline"></div>
+			    						<div class="impx-menu-page-group impx-menu-page-3col">
+			    							<div class="uk-grid uk-grid-medium uk-margin-medium-bottom impx-margin-bottom">
+			    								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-4-5@s impx-menu-page-group-title">
+			    									<h4 class="uk-margin-remove">Almuerzo</h4>
+			    									<p>🍽️ Disfruta de un almuerzo equilibrado y lleno de sabor, perfecto para recargar energías en tu día.</p>
+			    								</div>
+                                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-5@s">
+                                                    <img src="images/menu/menu-square6.jpg" alt="Menu Image" class="uk-border-circle uk-align-center" />
+                                                </div>
+			    							</div>
+				    						<ul class="impx-menu-page menu-list">
+												<li>
+													<div class="impx-menu-page-item impx-menu-new">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Grilled Salmon<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$12.00</h5>
+						  									</div>
+						  									<p>Salmón a la parrilla con arroz y vegetales.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Chicken Caesar Salad</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$9.50</h5>
+						  									</div>
+						  									<p>Pollo a la parrilla con lechuga, aderezo césar y crutones.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Spaghetti Bolognese<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$11.00</h5>
+						  									</div>
+						  									<p>Spaghetti con salsa boloñesa y queso parmesano.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Beef Burger</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$10.00</h5>
+						  									</div>
+						  									<p>Hamburguesa de carne con queso cheddar, lechuga, tomate y cebolla.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Quinoa Power Bowl</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$9.00</h5>
+						  									</div>
+						  									<p>Bowl de quinoa con vegetales, tofu y aderezo de cilantro.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item  impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Margarita Pizza<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$10.50</h5>
+						  									</div>
+						  									<p>Pizza margarita con queso mozzarella, tomate y albahaca.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+							    			</ul>
+						    			</div>
+			    					</li>
+			    					<!-- Fin del grupo de menú #2 -->
+
+			    					<!-- Grupo de menú #3 -->
+			    					<li class="impx-menu-cat-group-wrapper">
+			    						<div class="impx-menu-cat-group-outline"></div>
+
+			    						<div class="impx-menu-page-group impx-menu-page-3col">
+			    							<div class="uk-grid uk-grid-medium uk-margin-medium-bottom impx-margin-bottom">
+			    								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-4-5@s impx-menu-page-group-title">
+			    									<h4 class="uk-margin-remove">Cena</h4>
+			    									<p>🌙 Termina tu día con una cena espectacular, llena de sabores sofisticados y texturas irresistibles. No te lo pierdas.</p>
+			    								</div>
+                                                <div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-5@s uk-container-center">
+                                                    <img src="images/menu/menu-square3.jpg" alt="Menu Image" class="uk-border-circle uk-align-center" />
+                                                </div>
+			    							</div>
+				    						<ul class="impx-menu-page menu-list">
+												<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Filet Mignon</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$18.00</h5>
+						  									</div>
+						  									<p>Filet mignon con arroz y vegetales.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item  impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Lobster Risotto<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$17.00</h5>
+						  									</div>
+						  									<p>Risotto de langosta con arroz y vegetales.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item impx-menu-new">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Chicken Alfredo Pasta<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$13.00</h5>
+						  									</div>
+						  									<p>Pasta Alfredo con pollo y queso parmesano.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Stuffed Bell Peppers</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$11.50</h5>
+						  									</div>
+						  									<p>Blandos pimientos rellenos con arroz, queso parmesano y vegetales.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Chicken Alfredo Pasta</h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$20.00</h5>
+						  									</div>
+						  									<p>Pasta Alfredo con pollo y queso parmesano.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+								    			<li>
+													<div class="impx-menu-page-item  impx-chef-selection">
+						    							<div class="impx-menu-page-content">
+						  									<h5>Tuna Tartare<span>Chef Selection</span></h5>
+						  									<div class="impx-menu-page-price">
+						  										<h5>$14.00</h5>
+						  									</div>
+						  									<p>Tartare de atún con cebolla roja, cilantro y aderezo de limón.</p>
+						  								</div>
+								    				</div>
+								    			</li>
+							    			</ul>
+						    			</div>
+			    					</li>
+			    					<!-- Fin del grupo de menú #3 -->
+								</ul>
+								<!-- Grupos de menú End -->
+							</div>
+						</div>
+						<!-- Carrusel de menú End -->
+					</div>
+				</div>
+				<!-- Fin del carrusel de menú -->
+    		</div>
+		</div>
+		<!-- Fin del carrusel de menú -->
+		
+		<!-- Galería -->
+		<div class="uk-padding uk-margin-medium-bottom uk-padding-remove-horizontal">
+            <div class="uk-container">
+               <div class="uk-flex-center" data-uk-grid>
+                    <div class="uk-width-2-3@xl uk-width-2-3@l uk-width-1-1@m uk-text-center uk-margin-small-bottom"><!-- gallery intro -->
+                        <h2 class="uk-margin-remove-bottom">Nuestra Galería</h2>
+                        <p class="impx-text-large uk-margin-remove-bottom uk-margin-small-top impx-margin-bottom-small">Lo mejor de nuestra cocina a tu paladar</p>
+                    </div><!-- Fin de la introducción de la galería -->
+                </div>
+
+                <!-- Elementos de la galería -->
+           		<div class="uk-child-width-1-4@xl uk-child-width-1-4@l uk-child-width-1-4@m uk-child-width-1-3@s uk-grid-medium impx-margin-top-small" data-uk-grid="masonry : true" data-uk-lightbox>
+                    <div class="grid-item uk-margin-bottom"><!-- Elemento de la galería #1 -->
+                    	<a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-1.jpg" data-caption="Caption 1">
+	                        <img src="images/gallery/resto-gal-1.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+                                <h5>Tarta de verduras</h5>
+                                <p>Una base crujiente con rodajas de berenjena, calabacín y tomate cherry frescos.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #1 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #2 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/intro-img-1.jpg" data-caption="Caption 2">
+	                        <img src="images/intro-img-1.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Espárragos con salsa holandesa</h5>
+                                <p>Espárragos blancos bañados en una cremosa salsa holandesa, acompañados de papas y carne.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #2 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #3 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-5.jpg"  data-caption="Caption 3">
+	                        <img src="images/gallery/resto-gal-5.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Postres variados</h5>
+                                <p>Selección de dulces, incluyendo cheesecake de frutos rojos, pastel de chocolate y flan con lima.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #3 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #4 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-4.jpg"  data-caption="Caption 4">
+	                        <img src="images/gallery/resto-gal-4.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Mesa elegante</h5>
+                                <p>Una mesa decorada con copas de vino y servilletas rosas, ideal para una cena especial.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #4 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #5 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-7.jpg"  data-caption="Caption 5">
+	                        <img src="images/gallery/resto-gal-7.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Sándwich gourmet</h5>
+                                <p>Un sándwich de varias capas con vegetales, queso, carne y una aceituna como adorno.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #5 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #6 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/intro-img-3.jpg"  data-caption="Caption 6">
+	                        <img src="images/intro-img-3.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Plato de mariscos</h5>
+                                <p>Un filete de pescado a la parrilla con langostinos y vegetales, decorado con una salsa ligera.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #6 -->
+                    <div class="grid-item" data-uk-lightbox><!-- Elemento de la galería #7 -->
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-2.jpg" data-caption="Caption 7">
+	                        <img src="images/gallery/resto-gal-2.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Pasta con vino</h5>
+                                <p>Un plato de pasta con salsa boloñesa acompañado de pan y una copa de vino tinto.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #7 -->
+                    <div class="grid-item" data-uk-lightbox>
+                        <a class="uk-inline-clip uk-transition-toggle" href="images/gallery/resto-gal-8.jpg" data-caption="Caption 8">
+	                        <img src="images/gallery/resto-gal-8.jpg" alt="">
+	                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+								<h5>Pollo rostizado</h5>
+                                <p>Jugosos trozos de pollo con una piel dorada y crujiente, servidos con hierbas frescas.</p>
+	                        </div>
+	                    </a>
+                    </div><!-- Fin del elemento de la galería #7 -->
+                </div>
+                <!-- Elementos de la galería End -->
+            </div>
+        </div>
+        <!-- Fin de la galería -->
+
+        <!-- CTA -->
+        <div class="impx-resto-content bg-color-aqua pattern-1">
+            <div class="uk-container">
+            	<div data-uk-grid>
+	            	<div class="uk-width-expand@xl uk-width-expand@l uk-width-expand@m uk-width-1-1@s">
+	            		<div class="impx-badge-content left uk-light uk-margin-medium-top uk-text-right">
+	                        <h4 class="uk-margin-small-bottom">Sabores del Paraíso</h4>
+	                        <p class="impx-text-large uk-margin-remove uk-visible@s">Disfruta de una cocina de autor con ingredientes frescos y locales, diseñada para deleitar todos tus sentidos.</p>
+	                    </div>
+	            	</div>
+	            	<div class="uk-width-1-5@xl uk-width-1-5@l uk-width-1-4@m uk-width-1-1@s">
+	            		<div class=" impx-resto-img impx-negative-top tiny">
+	                        <img src="images/chef.jpg" alt="resort" class="uk-border-circle impx-outline-border transparent large">
+	                    </div>
+	            	</div>
+	            	<div class="uk-width-expand@xl uk-width-expand@l uk-width-expand@m uk-width-1-1@s">
+	            		<div class="impx-badge-content right uk-light uk-margin-medium-top">
+	                        <h4 class="uk-margin-small-bottom">Culinaria de Lujo</h4>
+	                        <p class="impx-text-large uk-margin-remove uk-visible@s">Una experiencia gastronómica única en un entorno exclusivo, donde cada plato es una obra maestra.</p>
+	                    </div>
+	            	</div>
+            	</div>
+            </div>
+        </div>
+        <!-- Fin del CTA -->
+
+		<!-- Footer -->
+		<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+			<div class="uk-container">
+				<div class="uk-flex uk-flex-center data-uk-grid">
+					<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
+						<div class="impx-footer-logo uk-align-center uk-text-center">
+							<!-- Logo del Footer -->
+							<img src="images/logo.png" alt="" class="">
+							<!-- Nota del Footer -->
+							<p class="uk-margin-bottom">"Hotel Sativa & Resort es un destino ideal para quienes buscan relajación y confort en un entorno natural. Con habitaciones de lujo, piscinas cristalinas y servicios de primer nivel, ofrecemos una experiencia inolvidable para nuestros huéspedes. Disfruta de la mejor gastronomía, actividades recreativas y un ambiente exclusivo diseñado para el descanso y la diversión."</p>							
+							<!-- Derechos de autor -->
+							<p class="impx-copyright"><a target="_blank" href="https://github.com/gianmattus-programmer">Gianmattus-Programmer</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Scroll to Top -->
+			<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
+			<!-- Scroll to Top End -->
+		</footer>
+		<!-- Fin del Footer -->
+
+    	<!-- Javascript -->
+    	<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBGb3xrNtz335X4G2KfoOXb-XuIyHAzlVo"></script>
+        <script src="js/jquery.gmap.min.js"></script>
+        <script src="js/jquery.parallax.min.js"></script>
+        <script src="js/template-config.js"></script>
+    </body>
+
+
+</html>

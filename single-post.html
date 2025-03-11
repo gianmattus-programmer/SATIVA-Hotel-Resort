@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+    
+    
+
+<head>
+        
+        <!-- Meta estándar -->
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Propiedades del sitio -->
+        <title>Blog - Sativa</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+        <!-- Fuentes de Google -->
+       	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+       	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/tiny-date-picker.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media-query.css" />
+
+    </head>
+
+    <body class="impx-body" id="top">
+    	
+		<!-- ENCABEZADO -->
+		<header id="impx-header">
+			<div>
+				<div class="impx-menu-wrapper style2" data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+
+					<!-- Navegación móvil -->
+					<div id="mobile-nav" data-uk-offcanvas="mode: push; overlay: true">
+				        <div class="uk-offcanvas-bar">
+
+				            <ul class="uk-nav uk-nav-default">
+				                <li class="uk-parent">
+				                	<a href="index.html">Inicio</a>
+				                </li>
+				                <li class="uk-parent">
+						        	<a href="rooms.html" class="uk-navbar-nav-subtitle">Habitaciones</a>
+				                </li>
+				                <li><a href="restaurant.html">Restaurante</a></li>
+				                <li><a href="spa.html">Spa</a></li>
+				                <li><a href="activities.html">Actividades</a></li>
+				                <li class="uk-parent uk-active">
+				                	<a href="#">Páginas</a>
+				                	<ul class="uk-nav-sub">
+					                	<li><a href="about.html">Acerca de nosotros</a></li>
+										<li><a href="testimonial.html">Testimonio</a></li>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="single-post.html">Publicación individual</a></li>
+										<li><a href="gallery.html">Galería</a></li>
+									</ul>
+				                </li>
+				                <li><a href="contact.html">Contacto</a></li>
+				            </ul>
+
+				        </div>
+				    </div>
+				    <a href="#mobile-nav" class="uk-hidden@xl uk-hidden@l uk-hidden@m mobile-nav" data-uk-toggle="target: #mobile-nav"><i class="fa fa-bars"></i>Menú</a>
+		            <!-- Navegación móvil -->
+		            <!-- Encabezado superior -->
+					<div class="impx-top-header style2">
+						<div class="uk-container uk-container-expand">							
+							<div class="uk-grid">
+								<!-- Teléfono del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-phone">
+										<p><i class="fa fa-phone"></i> Teléfono : +51 987654321</p>  
+									</div>
+								</div><!-- Teléfono del encabezado -->
+								<!-- Redes sociales del encabezado -->
+								<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+									<div class="impx-top-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook-f"></i>Facebook</a></li>
+											<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+										</ul>
+									</div>
+								</div><!-- Redes sociales del encabezado -->
+							</div>
+						</div>
+					</div>
+					<!-- Encabezado superior -->
+					<div class="uk-container uk-container-expand">
+						<div data-uk-grid>
+
+							<!-- Logotipo del encabezado -->
+							<div class="uk-width-auto">
+								<div class="impx-logo">
+									<a href="index.html"><img src="images/logo.png" class="" alt="Logotipo"></a>
+								</div>
+							</div>
+							<!-- Logotipo del encabezado -->
+							<!-- Navegación del encabezado -->
+							<div class="uk-width-expand uk-position-relative">								
+								<nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
+									<div class="uk-navbar-right impx-navbar-right">
+
+	        							<ul class="uk-navbar-nav impx-nav style2">
+											<!-- Elementos de navegación -->
+									    	<li class="uk-parent">
+								    			<a href="index.html" class="uk-navbar-nav-subtitle"><div>Inicio<div class="uk-navbar-subtitle">Bienvenido</div></div></a>
+									    	</li>
+									    	<li>
+									        	<a href="rooms.html" class="uk-navbar-nav-subtitle"><div>Habitaciones<div class="uk-navbar-subtitle">Nuestras mejores suites</div></div></a>
+									        </li>
+									        <li><a href="restaurant.html"><div>Restaurante<div class="uk-navbar-subtitle">Restaurante en el hotel</div></div></a></li>
+											<li><a href="spa.html"><div>Spa<div class="uk-navbar-subtitle">Nuestro spa</div></div></a></li>
+											<li><a href="activities.html" class="uk-navbar-nav-subtitle"><div>Actividades<div class="uk-navbar-subtitle">Nuestras instalaciones</div></div></a></li>
+											<li class="uk-parent uk-active">
+								    			<a href="#" class="uk-navbar-nav-subtitle"><div>Páginas<div class="uk-navbar-subtitle">Otras páginas</div></div></a>
+									    		<div class="uk-navbar-dropdown">
+	                								<ul class="uk-nav uk-navbar-dropdown-nav">
+														<li><a href="about.html">Nosotros</a></li>
+														<li><a href="testimonial.html">Testimonios</a></li>
+														<li><a href="blog.html">Blog</a></li>
+														<li><a href="single-post.html">Post</a></li>
+														<li><a href="gallery.html">Galería</a></li>
+													</ul>
+												</div>
+									    	</li>
+									        <li><a href="contact.html" class="uk-navbar-nav-subtitle"><div>Contacto<div class="uk-navbar-subtitle">Contáctenos</div></div></a></li>
+									    </ul>
+									    <!-- Elementos de navegación -->
+									</div>
+								</nav>
+							</div>
+							<!-- Navegación del encabezado -->
+							<!-- Cinta promocional -->
+							<div class="uk-width-auto uk-position-relative">
+								<div class="ribbon">
+								  <i><span><s></s>30% <span>¡Oferta!</span><s></s></span></i>
+								</div>
+							</div>
+							<!-- Cinta promocional -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+		<!-- ENCABEZADO -->
+
+		<!-- ENCABEZADO DE LA PÁGINA -->
+		<div class="impx-page-heading uk-position-relative blog">
+			<div class="impx-overlay dark"></div>
+			<div class="uk-container">
+				<div class="uk-width-1-1">
+					<div class="uk-flex uk-flex-left">
+						<div class="uk-light uk-position-relative uk-text-left page-title">
+							<h1 class="uk-margin-remove">Blog</h1><!-- Título de la página -->
+							<p class="impx-text-large uk-margin-remove">Nuestras últimas noticias</p><!-- Subtítulo de la página -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ENCABEZADO DE LA PÁGINA -->
+
+		<!-- CONTENIDO -->
+		<div class="uk-padding uk-padding-remove-horizontal">
+			<div class="uk-container">
+				<div data-uk-grid>
+
+					<!-- Contenido principal -->
+					<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-margin-top  impx-margin-top-small">
+
+						<div class="uk-card uk-card-default uk-margin-medium-bottom impx-article">
+							<div class="uk-card-body impx-padding-medium impx-article-item">
+								<article class="uk-article"><!-- Artículo -->
+								    <h3 class="uk-article-title">Quem Tiberina descensio festo illo die tanto gaudio</h3>
+
+								    <p class="uk-article-meta"><i class="fa fa-user"></i> <a href="#" class="impx-text-aqua">Super User</a> | <i class="fa fa-calendar"></i> 12 abril 2018. | <i class="fa fa-tags"></i> <a href="#" class="impx-text-aqua">Blog</a> | <i class="fa fa-commenting"></i> <a class="uk-button uk-button-text impx-text-aqua" href="#impx-comments">5 Comentarios</a></p>
+
+								    <img src="images/slideshow/slide-4.jpg" class="uk-margin-small-bottom" alt="">
+
+								    <p class="uk-dropcap">Quae in controversiam veniunt, de iis, si placet, disseramus. Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore, frangi, succumbere. Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset.</p>
+
+								    <blockquote>
+								    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eadem nunc adversum te oratio est. Qualem igitur hominem natura inchoavit? Aufert enim  actionemque tollit omnem. Ergo in utroque exercebantur, eaque disciplina effecit tantam illorum.</p>
+								    </blockquote>
+
+									<p>Ne discipulum abducam, times. Duo Reges: constructio interrete. Et nemo nimium beatus est; Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Moriatur, inquit. Compensabatur, inquit, cum summis doloribus laetitia. Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi. </p>
+
+									<p>Quae in controversiam veniunt, de iis, si placet, disseramus. Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore, frangi, succumbere. Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari virum vetan Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. </p>
+
+									<ol>
+										<li>His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent.</li>
+										<li>Nec enim, omnes avaritias si aeque avaritias esse dixerimus, sequetur ut etiam aequas esse dicamus.</li>
+										<li>Hoc est vim afferre, Torquate, sensibus, extorquere ex animis cognitiones verborum, quibus inbuti sumus.</li>
+										<li>Sed tamen est aliquid, quod nobis non liceat, liceat illis.</li>
+										<li>Stoici autem, quod finem bonorum in una virtute ponunt, similes sunt illorum;</li>
+									</ol>
+
+
+									<p>Hoc loco tenere se Triarius non potuit. Quare obscurentur etiam haec, quae secundum naturam esse dicimus, in vita beata; An me, inquam, nisi te audire vellem, censes haec dicturum fuisse? Nihilo beatiorem esse Metellum quam Regulum. Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Quid de Pythagora? </p>
+
+									<p>Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Illud non continuo, ut aeque incontentae. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Re mihi non aeque satisfacit. </p>
+
+									<ul>
+										<li>Hosne igitur laudas et hanc eorum, inquam, sententiam sequi nos censes oportere?</li>
+										<li>Age nunc isti doceant, vel tu potius quis enim ista melius?</li>
+									</ul>
+
+								</article><!-- Artículo -->
+							</div>
+						</div>
+
+						<!-- Publicaciones relacionadas -->
+						<div class="uk-margin-medium-bottom impx-related-posts">
+							<h4 class="uk-margin-bottom uk-heading-line uk-heading-bullet"><span>Publicaciones relacionadas</span></h4>
+							<ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s impx-related-news" data-uk-grid>
+								<li>
+									<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-4@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-2.jpg" alt="Miniatura popular" />
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-3-4@s">
+    										<h6 class="uk-margin-remove-bottom"><a href="single-post.html" class="uk-link-reset">At iam decimum annum in spelunca iacet</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">8 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+								<li>
+									<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-4@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-3.jpg" alt="Miniatura popular" />
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-3-4@s">
+    										<h6 class="uk-margin-small-bottom"><a href="single-post.html" class="uk-link-reset">Sin autem est in ea, quod quidam volunt</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">7 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+							</ul>
+						</div>
+						<!-- Publicaciones relacionadas -->
+
+						<!-- Comentarios -->
+						<div class="impx-comments-section" id="impx-comments">
+							<div class="uk-card uk-card-default uk-margin-medium-bottom impx-article">
+								<div class="uk-card-body impx-padding-medium impx-article-item">
+
+									<h4 class="uk-margin-medium-bottom uk-heading-line uk-heading-bullet"><span>Comentarios</span></h4>
+									<ul class="uk-comment-list">
+										<li>
+											<article class="uk-comment">
+											    <header class="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid>
+											        <div class="uk-width-auto">
+											            <img class="uk-comment-avatar" src="images/peoples/testi-people1.jpg" width="80" height="80" alt="">
+											        </div>
+											        <div class="uk-width-expand">
+											            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+											            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+											                <li><a href="#">12 días atrás</a></li>
+											                <li><a href="#">Responder</a></li>
+											            </ul>
+											        </div>
+											    </header>
+											    <div class="uk-comment-body">
+											        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd.</p>
+											    </div>
+											</article>
+											<ul>
+												<li>
+													<article class="uk-comment">
+													    <header class="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid>
+													        <div class="uk-width-auto">
+													            <img class="uk-comment-avatar" src="images/peoples/testi-people2.jpg" width="80" height="80" alt="">
+													        </div>
+													        <div class="uk-width-expand">
+													            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+													            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+													                <li><a href="#">12 días atrás</a></li>
+													                <li><a href="#">Responder</a></li>
+													            </ul>
+													        </div>
+													    </header>
+													    <div class="uk-comment-body">
+													        <p>Quae in controversiam veniunt, de iis, si placet, disseramus. Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore, frangi, succumbere. Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari virum vetant in dolore.</p>
+													    </div>
+													</article>
+													<ul>
+														<li>
+															<article class="uk-comment">
+															    <header class="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid>
+															        <div class="uk-width-auto">
+															            <img class="uk-comment-avatar" src="images/peoples/testi-people4.jpg" width="80" height="80" alt="">
+															        </div>
+															        <div class="uk-width-expand">
+															            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+															            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+															                <li><a href="#">12 días atrás</a></li>
+															                <li><a href="#">Responder</a></li>
+															            </ul>
+															        </div>
+															    </header>
+															    <div class="uk-comment-body">
+															        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+															    </div>
+															</article>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<article class="uk-comment">
+											    <header class="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid>
+											        <div class="uk-width-auto">
+											            <img class="uk-comment-avatar" src="images/peoples/testi-people3.jpg" width="80" height="80" alt="">
+											        </div>
+											        <div class="uk-width-expand">
+											            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+											            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+											                <li><a href="#">12 días atrás</a></li>
+											                <li><a href="#">Responder</a></li>
+											            </ul>
+											        </div>
+											    </header>
+											    <div class="uk-comment-body">
+											        <p>Atque his de rebus et splendida est eorum et illustris oratio. De vacuitate doloris eadem sententia erit. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni postea translatum ad philosophos nostros esset.</p>
+											    </div>
+											</article>
+										</li>
+										<li>
+											<article class="uk-comment">
+											    <header class="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid>
+											        <div class="uk-width-auto">
+											            <img class="uk-comment-avatar" src="images/peoples/testi-people4.jpg" width="80" height="80" alt="">
+											        </div>
+											        <div class="uk-width-expand">
+											            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+											            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+											                <li><a href="#">12 días atrás</a></li>
+											                <li><a href="#">Responder</a></li>
+											            </ul>
+											        </div>
+											    </header>
+											    <div class="uk-comment-body">
+											        <p>Hoc loco tenere se Triarius non potuit. Quare obscurentur etiam haec, quae secundum naturam esse dicimus, in vita Regulum. Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Quid de Pythagora?</p>
+											    </div>
+											</article>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<!-- Comentarios -->
+
+						<!-- Formulario de comentarios -->
+						<div class="uk-card uk-card-default uk-margin-bottom impx-comment-form impx-article">
+							<div class="uk-card-body impx-padding-medium impx-article-item">
+								<h4 class="uk-margin-medium-bottom uk-heading-line uk-heading-bullet"><span>Agregar comentario</span></h4>
+								<form>
+								    <fieldset class="uk-fieldset">
+
+								        <div class="uk-margin">
+								            <input class="uk-input" type="text" placeholder="Nombre">
+								        </div>
+								        <div class="uk-margin">
+								            <input class="uk-input" type="text" placeholder="Correo electrónico">
+								        </div>
+
+								        <div class="uk-margin">
+								        	<input class="uk-input" type="text" placeholder="Sitio web">
+								        </div>
+
+								        <div class="uk-margin">
+								            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+								        </div>
+								        <div class="uk-margin">
+								            <button class="uk-button impx-button aqua">Enviar</button>
+								        </div>
+								    </fieldset>
+								</form>
+							</div>
+						</div>
+						<!-- Formulario de comentarios -->
+
+					</div>
+					<!-- Contenido principal -->
+
+					<!-- Barra lateral -->
+					<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s uk-margin-top">
+						
+						<!-- Widget de búsqueda -->
+						<div class="impx-sidebar uk-margin-medium-bottom">
+							<form class="uk-search uk-search-default">
+						        <a href="#" class="uk-search-icon-flip" data-uk-search-icon></a>
+						        <input class="uk-search-input" type="search" placeholder="Buscar...">
+						    </form>
+						</div>
+					    <!-- Widget de búsqueda -->
+
+						<!-- Widget de publicaciones populares -->
+    					<div class="impx-sidebar uk-margin-large-bottom">
+    						<h4 class="uk-heading-line uk-heading-bullet"><span>Más populares</span></h4>
+    						<ul class="impx-popular-news uk-list uk-list-divider uk-list-large">
+    							<li>
+    								<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-6@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-1.jpg" alt="Miniatura popular"/>
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-5-6@s">
+    										<h6 class="uk-margin-small-bottom"><a href="single-post.html" class="uk-link-reset">Maximus dolor, inquit, brevis est. Et non ex maxima parte</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">10 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+								<li>
+									<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-6@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-2.jpg" alt="Miniatura popular" />
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-5-6@s">
+    										<h6 class="uk-margin-small-bottom"><a href="single-post.html" class="uk-link-reset">At iam decimum annum in spelunca iacet</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">8 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+								<li>
+									<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-6@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-3.jpg" alt="Miniatura popular" />
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-5-6@s">
+    										<h6 class="uk-margin-small-bottom"><a href="single-post.html" class="uk-link-reset">Sin autem est in ea, quod quidam volunt</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">7 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+								<li>
+									<div class="uk-grid-small" data-uk-grid>
+    									<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-6@s">
+    										<div class="impx-popular-thumb">
+		    									<img src="images/rooms/room-4.jpg" alt="Miniatura popular" />
+		    								</div>
+    									</div>
+    									<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-5-6@s">
+    										<h6 class="uk-margin-small-bottom"><a href="single-post.html" class="uk-link-reset">Sin autem est in ea, quod quidam volunt, nihil impedit</a></h6>
+		    								<ul class="impx-post-meta">
+												<li><i class="fa fa-commenting-o"></i> <a href="#">7 Comentarios</a></li>
+											</ul>
+    									</div>
+    								</div>
+								</li>
+    						</ul>
+    					</div>
+    					<!-- Widget de publicaciones populares -->
+
+						<!-- Widget de categorías -->
+    					<div class="impx-sidebar uk-margin-large-bottom">
+    						<h4 class="uk-heading-line uk-heading-bullet"><span>Categorías</span></h4>
+    						<ul class="uk-list uk-list-divider impx-cat-list">
+    							<li><a href="#">Restaurante</a></li>
+    							<li><a href="#">Comida</a></li>
+    							<li><a href="#">Hotel</a></li>
+    							<li><a href="#">Viajes</a></li>
+    							<li><a href="#">Spa oriental</a></li>
+    						</ul>
+    					</div>
+    					<!-- Widget de categorías -->
+
+    					<!-- Widget de nube de etiquetas -->
+    					<div class="impx-sidebar">
+    						<h4 class="uk-heading-line uk-heading-bullet"><span>Etiquetas</span></h4>
+    						<ul class="impx-tags-widget">
+    							<li><a href="#">Comida</a></li>
+    							<li><a href="#">Bebida</a></li>
+    							<li><a href="#">Café</a></li>
+    							<li><a href="#">Carne</a></li>
+    							<li><a href="#">Vegetariano</a></li>
+    							<li><a href="#">Cena</a></li>
+    							<li><a href="#">Desayuno</a></li>
+    							<li><a href="#">Recetas</a></li>
+    							<li><a href="#">Almuerzo</a></li>
+    							<li><a href="#">Postres</a></li>
+    							<li><a href="#">Chef</a></li>
+    							<li><a href="#">Recomendación</a></li>
+    						</ul>
+    					</div>
+    					<!-- Widget de nube de etiquetas -->
+
+					</div>
+					<!-- Barra lateral -->
+				</div>
+			</div>
+		</div>						
+		<!-- CONTENIDO -->
+
+		<!-- INFORMACIÓN DE CONTACTO -->
+		<div class="uk-padding bg-img2 uk-position-relative">
+			<div class="impx-overlay dark"></div>
+			<div class="uk-container">
+
+				<div data-uk-grid class="uk-padding-remove-bottom"><!-- Dirección -->
+					<div class="uk-light uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
+						<h5 class="uk-heading-line uk-margin-remove-bottom impx-text-white"><span>Dirección</span></h5>
+						<p class="impx-text-large uk-margin-top impx-text-light">Av. 28 de Julio 1234<br/> Lima, Perú</p>
+					</div><!-- Dirección End-->
+					<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s"><!-- Teléfono -->
+						<h5 class="uk-heading-line uk-margin-bottom impx-text-white"><span>Teléfono</span></h5>
+						<p class="impx-text-large uk-margin-remove impx-text-light">+51 923456789<br/>+51 987456123</p>
+					</div><!-- Teléfono End -->
+					<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s"><!-- Email -->
+						<h5 class="uk-heading-line uk-margin-bottom  impx-text-white"><span>Email</span></h5>
+						<a href="mailt:#" class="impx-text-large impx-text-light">cs@sativa.pe</a><br/>
+						<a href="mailt:#" class="impx-text-large impx-text-light">info@sativa.pe</a>
+					</div><!-- Email End -->
+				</div>
+
+			</div>
+		</div>
+		<!-- INFORMACIÓN DE CONTACTO -->
+
+		<!-- PIE DE PÁGINA -->
+		<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+			<div class="uk-container">
+				<div class="uk-flex uk-flex-center data-uk-grid">
+					<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
+						<div class="impx-footer-logo uk-align-center uk-text-center">
+							<!-- Logotipo del pie de página -->
+							<img src="images/logo.png" alt="" class="">
+							<!-- Nota del pie de página -->
+							<p class="uk-margin-bottom">"Hotel Sativa & Resort es un destino ideal para quienes buscan relajación y confort en un entorno natural. Con habitaciones de lujo, piscinas cristalinas y servicios de primer nivel, ofrecemos una experiencia inolvidable para nuestros huéspedes. Disfruta de la mejor gastronomía, actividades recreativas y un ambiente exclusivo diseñado para el descanso y la diversión."</p>							
+							<!-- Derechos de autor -->
+							<p class="impx-copyright"><a target="_blank" href="https://github.com/gianmattus-programmer">Gianmattus-Programmer</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Volver arriba -->
+			<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
+			<!-- Volver arriba -->
+		</footer>
+		<!-- PIE DE PÁGINA -->
+
+    	<!-- Javascript -->
+    	<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBGb3xrNtz335X4G2KfoOXb-XuIyHAzlVo"></script>
+        <script src="js/jquery.gmap.min.js"></script>
+        <script src="js/jquery.parallax.min.js"></script>
+        <script src="js/template-config.js"></script>
+    </body>
+
+
+</html>
