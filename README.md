@@ -4,7 +4,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gianmattus-programmer/sativa-hotel-resort)
 ![GitHub](https://img.shields.io/github/license/gianmattus-programmer/sativa-hotel-resort)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fsativahotel.com&up_message=online&down_message=offline&label=website)]([https://sativahotel.com](https://sativa-hotel-resort.vercel.app/))
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fsativahotel.com&up_message=online&down_message=offline&label=website)]([https://sativahotel.com](https://sativa-hotel-resort.vercel.app/)
 
 <img src="images/logo.png" alt="SATIVA Hotel & Resort Logo" width="200"/>
 
