@@ -130,7 +130,7 @@ Desarrollado con ❤️ por [gianmattus-programmer](https://github.com/gianmattu
 <div align="center">
 
 [![Síguenos en Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sativahotel)
-[![Síguenos en Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/sativahotel)
+[![Síguenos en Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/giancarlos.chavezmattus)
 [![Síguenos en Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sativahotel)
 
 </div>
