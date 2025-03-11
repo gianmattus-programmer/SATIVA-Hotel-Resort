@@ -65,6 +65,20 @@ SATIVA Hotel & Resort es un sitio web de lujo diseñado para ofrecer a nuestros 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+</div>
+
+## 🏆 Estado del Proyecto
+
+<div align="center">
+
+![GitHub Stars](https://img.shields.io/github/stars/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)
 
 </div>
 
@@ -121,8 +135,7 @@ Desarrollado con ❤️ por [gianmattus-programmer](https://github.com/gianmattu
 
 <div align="center">
 
-[![Síguenos en Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sativahotel)
+[![Síguenos en Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gianmattus/)
 [![Síguenos en Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/giancarlos.chavezmattus)
-[![Síguenos en Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sativahotel)
-
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?&style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@gianmattus)
 </div>
