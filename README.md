@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gianmattus-programmer/sativa-hotel-resort)
-![GitHub](https://img.shields.io/github/license/gianmattus-programmer/sativa-hotel-resort)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fsativa-hotel-resort.vercel.app&up_message=online&down_message=offline&label=website)](https://sativa-hotel-resort.vercel.app/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)](https://github.com/gianmattus-programmer/sativa-hotel-resort/commits)
+[![GitHub License](https://img.shields.io/github/license/gianmattus-programmer/sativa-hotel-resort?style=for-the-badge)](https://github.com/gianmattus-programmer/sativa-hotel-resort/blob/main/LICENSE)
+[![Website Status](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fsativa-hotel-resort.vercel.app&up_message=online&down_message=offline&label=website)](https://sativa-hotel-resort.vercel.app/)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://sativa-hotel-resort.vercel.app/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://sativa-hotel-resort.vercel.app/)
 
